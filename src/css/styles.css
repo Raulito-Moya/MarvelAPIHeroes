@@ -1,0 +1,139 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(167, 168, 170);
+    z-index: -1;
+    
+ 
+}
+
+.content{
+    width: 70%;
+    height: 100vh;
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: no-wrap;
+    justify-content: center;
+   
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image{
+    height: 600px;
+}
+
+
+
+
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 2.1em;
+    width: 50%;
+    height: auto;
+    margin-top: -50px;
+  
+}
+
+.title{
+    width: 100%;
+    font-size: 0.5em;
+    color: white;
+}
+
+.list{
+  
+   display: flex;
+   flex-direction: column;
+ 
+}
+
+.artists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.item{
+   color: white;
+
+    font-weight: 300;
+    font-size: 0.6em;
+}   
+
+.add{
+    padding: 0px;
+    margin: 0px;
+    margin-top: -1px;
+    margin-left: 20px;
+    color: rgb(192, 185, 185);
+    font-weight: 200;
+    font-size: 0.6em;
+}
+
+
+
+
+.descriptionText{
+   
+    color: rgb(192, 185, 185);
+    font-size: 0.4em;
+    font-weight: 100;
+    width: 100%;
+    
+   
+}
+
+@media screen and (max-height:750px) {
+    .content{
+        
+    }
+  
+}
+@media screen and (max-width:750px) {
+     
+    .content{
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+
+    .image{
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+      
+
+    }
+
+  }
