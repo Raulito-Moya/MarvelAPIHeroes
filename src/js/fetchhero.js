@@ -4,7 +4,7 @@ async function  execute() {
 
     async function  getheroes() {
       
-       let result = await fetch('http://gateway.marvel.com/v1/public/comics/98445?limit=100&ts=1&apikey=15a44bbc665f23487ee7c99819510473&hash=fb2fa27cdf6b33ecfca9a99f456d09e8',{ mode: 'cors'})
+       let result = await fetch('https://gateway.marvel.com/v1/public/comics/98445?limit=100&ts=1&apikey=15a44bbc665f23487ee7c99819510473&hash=fb2fa27cdf6b33ecfca9a99f456d09e8',{ mode: 'cors'})
        .then(res => {
          return   res.json()
        }).then( data => {

@@ -59,7 +59,7 @@ body{
     font-size: 2.1em;
     width: 50%;
     height: auto;
-    margin-top: -50px;
+    margin-top: -30px;
   
 }
 
@@ -67,6 +67,7 @@ body{
     width: 100%;
     font-size: 0.5em;
     color: white;
+   
 }
 
 .list{
@@ -113,18 +114,14 @@ body{
    
 }
 
-@media screen and (max-height:750px) {
-    .content{
-        
-    }
-  
-}
+
 @media screen and (max-width:750px) {
      
     .content{
         height: 100%;
         width: 100%;
         flex-wrap: wrap;
+        gap: 20px;
     }
 
 
